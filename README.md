@@ -1,6 +1,6 @@
 # roguelike
 
-Created by kmccrea while following along with the RoguelikeDev subreddit.
+Created by kmccrea while following along with the [RoguelikeDev subreddit](https://old.reddit.com/r/roguelikedev/comments/bz6s0j/roguelikedev_does_the_complete_roguelike_tutorial/).
 
 As a preface, I have never written any code in Python (which is the major motivation behind doing this project). I am simply here to learn, and I'm writing this documentation on the off chance it'll be helpful to anyone else.
 
