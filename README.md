@@ -24,3 +24,7 @@ I continued the tutorial to create the `engine.py` file to ensure that everythin
 Lastly, I enabled version control and created my remote repository.
 
 ### [Part 1 - Drawing the ‘@’ symbol and moving it around](http://rogueliketutorials.com/tutorials/tcod/part-1/)
+
+There's not much to report for this section. The only thing additional I did here was change my player to green because obviously.
+
+I found a list of built-in colors [here](http://roguecentral.org/doryen/data/libtcod/doc/1.5.1/html2/color.html).
