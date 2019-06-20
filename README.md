@@ -2,7 +2,7 @@
 
 Created by kmccrea while following along with the [RoguelikeDev subreddit](https://old.reddit.com/r/roguelikedev/comments/bz6s0j/roguelikedev_does_the_complete_roguelike_tutorial/).
 
-As a preface, I have never written any code in Python (which is the major motivation behind doing this project). I am simply here to learn, and I'm writing this documentation on the off chance it'll be helpful to anyone else.
+As a preface, I have never written any code in Python (which is the major motivation behind doing this project). I am simply here to learn, and I'm writing this documentation on the off chance it'll be helpful to anyone else.  Any information here assumes that you are also following along with the tutorial.
 
 Just to be different, I will be completing this tutorial using the following system:
 * MacOS Mojave (10.14.5) 
@@ -25,6 +25,15 @@ Lastly, I enabled version control and created my remote repository.
 
 ### [Part 1 - Drawing the ‘@’ symbol and moving it around](http://rogueliketutorials.com/tutorials/tcod/part-1/)
 
-There's not much to report for this section. The only thing additional I did here was change my player to green because obviously.
+There's not much to report for this section. The only thing additional I did here was change my player to green.
 
 I found a list of built-in colors [here](http://roguecentral.org/doryen/data/libtcod/doc/1.5.1/html2/color.html).
+
+## Week 2
+
+### [Part 2 - The generic Entity, the render functions, and the map](http://rogueliketutorials.com/tutorials/tcod/part-2/)
+
+~~Perhaps I missed a section at the end of Part 1, but the first time we modify `engine.py`, there were two lines I was meant to be removing that I didn't have. EDIT: on further reflection, we had already removed these lines at the end of Part 1. EDIT2: Ah yes, then the second time we edit this file, those lines are missing again. Must be an error with the tutorial. No matter.~~
+
+
+
