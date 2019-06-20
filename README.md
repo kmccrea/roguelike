@@ -33,7 +33,9 @@ I found a list of built-in colors [here](http://roguecentral.org/doryen/data/lib
 
 ### [Part 2 - The generic Entity, the render functions, and the map](http://rogueliketutorials.com/tutorials/tcod/part-2/)
 
-~~Perhaps I missed a section at the end of Part 1, but the first time we modify `engine.py`, there were two lines I was meant to be removing that I didn't have. EDIT: on further reflection, we had already removed these lines at the end of Part 1. EDIT2: Ah yes, then the second time we edit this file, those lines are missing again. Must be an error with the tutorial. No matter.~~
+~~Perhaps I missed a section at the end of Part 1, but the first time we modify `engine.py`, there were two lines I was meant to be removing that I didn't have. EDIT: on further reflection, we had already removed these lines at the end of Part 1. EDIT 2: Ah yes, then the second time we edit this file, those lines are missing again. Must be an error with the tutorial. No matter.~~
+
+And that's it. We've now an (albeit stationary) NPC and a small wall to throw ourselves at. Nothing can stop us now! (Except the wall).
 
 
 
