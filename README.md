@@ -39,5 +39,7 @@ And that's it. We've now got an awesome (albeit stationary) NPC and a small wall
 
 EDIT: Reddit user [HexDecimal](https://old.reddit.com/user/HexDecimal) pointed out in [this comment](https://old.reddit.com/r/roguelikedev/comments/c1xj5b/roguelikedev_does_the_complete_roguelike_tutorial/errulhe/) that my project code should not be inside the `venv` folder (which totally makes sense) so I've moved it up a directory. Initially this was probably just a simple misclick on my part, but I didn't know enough to realize that having it inside `venv` doesn't really make sense. I've read through the documentation [here](https://docs.python.org/3/library/venv.html) and would recommend anyone else who doesn't really understand `venv` to do so as well.  Huge thank you to HexDecimal for the tip.
 
+### [Part 3 - Generating a dungeon](http://rogueliketutorials.com/tutorials/tcod/part-3/)
 
+Again, this part is fairly straightforward. Simply following the tutorial gives us a generated dungeon!
 
