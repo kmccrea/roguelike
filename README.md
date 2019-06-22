@@ -35,7 +35,9 @@ I found a list of built-in colors [here](http://roguecentral.org/doryen/data/lib
 
 ~~Perhaps I missed a section at the end of Part 1, but the first time we modify `engine.py`, there were two lines I was meant to be removing that I didn't have. EDIT: on further reflection, we had already removed these lines at the end of Part 1. EDIT 2: Ah yes, then the second time we edit this file, those lines are missing again. Must be an error with the tutorial. No matter.~~
 
-And that's it. We've now an (albeit stationary) NPC and a small wall to throw ourselves at. Nothing can stop us now! (Except the wall).
+And that's it. We've now got an awesome (albeit stationary) NPC and a small wall to throw ourselves at. Nothing can stop us now! (Except the wall).
+
+Edit: Reddit user [HexDecimal](https://old.reddit.com/user/HexDecimal) pointed out in [this comment](https://old.reddit.com/r/roguelikedev/comments/c1xj5b/roguelikedev_does_the_complete_roguelike_tutorial/errulhe/) that my project code should not be inside the `venv` folder (which totally makes sense) so I've moved it up a directory. Initially this was probably just a simple misclick on my part, but I didn't know enough to realize that having it inside `venv` doesn't really make sense. I've read through the documentation [here](https://docs.python.org/3/library/venv.html) and would recommend anyone else who doesn't really understand `venv` to do so as well.  Huge thank you to HexDecimal for the tip.
 
 
 
