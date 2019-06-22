@@ -43,3 +43,9 @@ EDIT: Reddit user [HexDecimal](https://old.reddit.com/user/HexDecimal) pointed o
 
 Again, this part is fairly straightforward. Simply following the tutorial gives us a generated dungeon!
 
+## Week 3
+
+### [Part 4 - Field of View](http://rogueliketutorials.com/tutorials/tcod/part-4/)
+
+In this part, I've simply followed the tutorial implemented field of view. Also, I've changed the background colors. I don't really like them, so I'll tweak them eventually.
+
