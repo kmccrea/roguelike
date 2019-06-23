@@ -1,3 +1,5 @@
+![RoguelikeDev does the Complete Roguelike Tutorial](https://i.imgur.com/3MAzEp1.png)
+
 # roguelike
 
 Created by kmccrea while following along with the [RoguelikeDev subreddit](https://old.reddit.com/r/roguelikedev/comments/bz6s0j/roguelikedev_does_the_complete_roguelike_tutorial/).
@@ -52,3 +54,11 @@ In this part, I've simply followed the tutorial implemented field of view. Also,
 ### [Part 5 - Placing Enemies and kicking them (harmlessly)](http://rogueliketutorials.com/tutorials/tcod/part-5/)
 
 Now, since we're adding 'monsters' I've changed some colors around like I promised in the previous section. When we added enemies, they were hard to see on our old background, so now we're just using various shades of the same color to give us the illusion of FOV while maintaining consistent colors. I've also added all colors to the 'colors' array. I assume when we move these values to another location (the tutorial mentioned this in an earlier part) it'll make more sense to have them all together.
+
+## Week 4
+
+### [Part 6 - Doing (and taking) some damage](http://rogueliketutorials.com/tutorials/tcod/part-6/)
+
+Implementing attacks, damage and death! This is a long chapter, but I didn't have any issues when following through the tutorial. 
+
+NOTE: I am using the `enum.auto()` function, so be sure to make the appropriate changes in that step if you are as well.
