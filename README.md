@@ -49,3 +49,6 @@ Again, this part is fairly straightforward. Simply following the tutorial gives 
 
 In this part, I've simply followed the tutorial implemented field of view. Also, I've changed the background colors. I don't really like them, so I'll tweak them eventually.
 
+### [Part 5 - Placing Enemies and kicking them (harmlessly)](http://rogueliketutorials.com/tutorials/tcod/part-5/)
+
+Now, since we're adding 'monsters' I've changed some colors around like I promised in the previous section. When we added enemies, they were hard to see on our old background, so now we're just using various shades of the same color to give us the illusion of FOV while maintaining consistent colors. I've also added all colors to the 'colors' array. I assume when we move these values to another location (the tutorial mentioned this in an earlier part) it'll make more sense to have them all together.
