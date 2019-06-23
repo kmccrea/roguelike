@@ -19,14 +19,16 @@ def main():
     fov_radius = 10
 
     colors = {
-        'dark_wall': libtcod.Color(35, 4, 57),
+        'player': libtcod.Color(121, 182, 148),
+        'npc': libtcod.Color(170, 147, 57),
+        'light_ground': libtcod.Color(40, 121, 76),
         'dark_ground': libtcod.Color(0, 61, 26),
         'light_wall': libtcod.Color(84, 43, 114),
-        'light_ground': libtcod.Color(40, 121, 76)
+        'dark_wall': libtcod.Color(35, 4, 57)
     }
 
-    player = Entity(int(screen_width / 2), int(screen_height / 2), '@', libtcod.Color(121, 182, 148))
-    npc = Entity(int(screen_width / 2 - 5), int(screen_height / 2), '@', libtcod.Color(170, 147, 57))
+    player = Entity(int(screen_width / 2), int(screen_height / 2), '@', colors.get('player'))
+    npc = Entity(int(screen_width / 2 - 5), int(screen_height / 2), '@', colors.get('npc'))
     entities = [npc, player]
 
     libtcod.console_set_custom_font('arial10x10.png', libtcod.FONT_TYPE_GREYSCALE | libtcod.FONT_LAYOUT_TCOD)
