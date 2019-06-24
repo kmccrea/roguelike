@@ -62,3 +62,7 @@ Now, since we're adding 'monsters' I've changed some colors around like I promis
 Implementing attacks, damage and death! This is a long chapter, but I didn't have any issues when following through the tutorial. 
 
 NOTE: I am using the `enum.auto()` function, so be sure to make the appropriate changes in that step if you are as well.
+
+### [Part 7 - Creating the Interface](http://rogueliketutorials.com/tutorials/tcod/part-7/)
+
+This section is extremely straightforward. I may revisit it at some point to see about changing the colors or even the font, just to make it stand out better.
