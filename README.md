@@ -73,3 +73,4 @@ This section is extremely straightforward. I may revisit it at some point to see
 
 ### [Part 8 - Items and Inventory](http://rogueliketutorials.com/tutorials/tcod/part-8/)
 
+In this part, I've just followed the tutorial and now we have a working inventory system! I've reverted the controls back to the tutorial default because we are adding new keys, and I didn't want to over complicate it. Eventually I will likely find a mapping that I like.
