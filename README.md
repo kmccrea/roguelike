@@ -63,6 +63,13 @@ Implementing attacks, damage and death! This is a long chapter, but I didn't hav
 
 NOTE: I am using the `enum.auto()` function, so be sure to make the appropriate changes in that step if you are as well.
 
+NOTE: I didn't like the recommended controls for movement, (if that's some kind of standard then I'm sorry). I've changed to WASD, then for diagonals it's QEZC.
+
 ### [Part 7 - Creating the Interface](http://rogueliketutorials.com/tutorials/tcod/part-7/)
 
 This section is extremely straightforward. I may revisit it at some point to see about changing the colors or even the font, just to make it stand out better.
+
+## Week 5
+
+### [Part 8 - Items and Inventory](http://rogueliketutorials.com/tutorials/tcod/part-8/)
+
