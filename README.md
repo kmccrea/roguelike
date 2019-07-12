@@ -147,3 +147,28 @@ Otherwise, it was returning that error and never loading our saved game!
 
 Other than that, fairly straightforward, and now we can save and and resume a game! Nifty!
 
+EDIT: I've actually gone back and changed this function further. 
+On different OS this will actually append different suffixes, further
+confusing the issue. See [this SO post](https://stackoverflow.com/questions/16171833/why-does-the-shelve-module-in-python-sometimes-create-files-with-different-exten/16231228#16231228).
+My function now looks like this, completely skipping the check for the file.
+If we had kept the file check, we'd have to look for every different suffix combination,
+then, we might find one that isn't actually the one in use (during one test, 3 separate files were created).
+Doing it this way will just either work or it won't, and we don't have to care about what type of file it is.
+
+```python
+def load_game():
+    try:
+        with shelve.open('savegame.dat', 'r') as data_file:
+            player_index = data_file['player_index']
+            entities = data_file['entities']
+            game_map = data_file['game_map']
+            message_log = data_file['message_log']
+            game_state = data_file['game_state']
+    except:
+        raise FileNotFoundError
+
+    player = entities[player_index]
+
+    return player, entities, game_map, message_log, game_state
+```
+
