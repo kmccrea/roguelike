@@ -175,3 +175,9 @@ def load_game():
 ### [Part 11 - Delving into the Dungeon](http://rogueliketutorials.com/tutorials/tcod/part-11/)
 
 This part is much more straightforward. Remember here that we're using the `auto()` function for our game states.
+
+## Week 7
+
+### [Part 12 - Increasing Difficulty](http://rogueliketutorials.com/tutorials/tcod/part-12/)
+
+Everything in this section is straightforward. I was tired of seeing the health bar go below zero when the player dies, so I added a line in `fighter.py` to prevent that.
