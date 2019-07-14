@@ -172,3 +172,6 @@ def load_game():
     return player, entities, game_map, message_log, game_state
 ```
 
+### [Part 11 - Delving into the Dungeon](http://rogueliketutorials.com/tutorials/tcod/part-11/)
+
+This part is much more straightforward. Remember here that we're using the `auto()` function for our game states.
