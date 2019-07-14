@@ -181,3 +181,7 @@ This part is much more straightforward. Remember here that we're using the `auto
 ### [Part 12 - Increasing Difficulty](http://rogueliketutorials.com/tutorials/tcod/part-12/)
 
 Everything in this section is straightforward. I was tired of seeing the health bar go below zero when the player dies, so I added a line in `fighter.py` to prevent that.
+
+### [Part 13 - Gearing up](http://rogueliketutorials.com/tutorials/tcod/part-13/)
+
+This one's short. Pretty cool that we now have a working inventory system. The game seems fairly well balanced at this point. I might like to make some tweaks, or add new items to the game. However, for now, we are finished!
